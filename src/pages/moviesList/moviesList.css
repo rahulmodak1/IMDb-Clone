@@ -1,0 +1,17 @@
+.movies-list {
+    /* margin: 1rem; */
+    width: 80%;
+    margin: auto;
+}
+
+.movies-list>h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 2rem 0;
+}
+
+.movies-list-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}

@@ -1,0 +1,121 @@
+.movie {
+    width: 80%;
+    margin: auto;
+}
+
+.movie-poster>img {
+    height: 500px;
+    width: 100%;
+}
+
+.movie-details {
+    display: flex;
+    gap: 3rem;
+}
+
+.movie-poster-box>img {
+    height: 400px;
+    width: 300px;
+    border-radius: 0.5rem;
+    box-shadow: 20px 23px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-details {
+    position: relative;
+    top: -250px;
+    width: 90%;
+    margin: auto;
+}
+
+.movie-details-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.movie-title {
+    font-size: 4rem;
+}
+
+.movie-tagline,
+.rating-vote,
+.vote-count,
+.movie-runtime,
+.movie-release-date {
+    font-size: 1.3rem;
+}
+
+.vote-count {
+    margin-left: 1rem
+}
+
+.movie-genres {
+    display: flex;
+    gap: 0.25rem;
+    margin-top: 1rem;
+}
+
+.movie-genres>span {
+    height: fit-content;
+    padding: 0.5rem;
+    width: fit-content;
+    border: 2px groove white;
+    border-radius: 30rem;
+}
+
+.movie-synopsis>p:first-child {
+    font-size: 2rem;
+}
+
+.movie-synopsis>p:last-child {
+    font-size: 1.1rem;
+    word-spacing: 2px;
+    margin-top: 1rem;
+}
+
+.useFul-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.useFul-links a {
+    color: black;
+    font-weight: bold;
+}
+
+.useful-text {
+    font-size: 2.2rem;
+}
+
+.home-page-link {
+    background-color: red;
+    padding: 0.7rem 4rem;
+    border-radius: 1.5rem;
+}
+
+.imdb-link {
+    background-color: #FFCB42;
+    padding: 0.7rem 4rem;
+    border-radius: 1.5rem;
+}
+
+.production-company>.production-text {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    text-decoration: underline;
+}
+
+.production-names {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    text-shadow: 3px 3px 3px #FFCB42;
+    margin-bottom: 2rem;
+}
+
+.production-names>p {
+    font-size: 2rem;
+}
